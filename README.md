@@ -93,7 +93,7 @@ terraform -v
 
 ```bash
 # Clone repository
-git clone https://gitlab.int.haproxy.com/darias/wavelength-terraform-hapee-aws.git
+git clone https://github.com/haproxytech/Terraform-HAPEE-AWS-Wavelength.git
 cd wavelength-terraform-hapee-aws
 
 # Modify configuration files:
