@@ -1,0 +1,88 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: http-server
+  labels:
+    app: http-server
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: http-server
+  template:
+    metadata:
+      labels:
+        app: http-server
+    spec:
+      containers:
+        - name: http-server
+          image: httpd:alpine
+          ports:
+            - containerPort: 80
+          volumeMounts:
+            - name: html
+              mountPath: /usr/local/apache2/htdocs/
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "250m"
+              memory: "256Mi"
+      volumes:
+        - name: html
+          configMap:
+            name: haproxy-page
+
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: haproxy-page
+data:
+  index.html: |
+    <html>
+      <head><title>HAProxy Info</title></head>
+      <body>
+        <h1>HAPEE HELLO</h1>
+        <p>This is served via HAPROXY ENTERPRISE</p>
+      </body>
+    </html>
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: http-server-service2
+  annotations:
+    haproxy.org/backend-config-snippet: |
+      http-send-name-header x-dst-server
+      stick-table type string len 32 size 100k expire 30m
+      stick on req.cook(sessionid)
+spec:
+  selector:
+    app: http-server
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: haproxy
+  annotations:
+    haproxy.org/ingress.class: "haproxy"
+spec:
+  ingressClassName: haproxy
+  rules:
+    - http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: http-server-service2
+                port:
+                  number: 80

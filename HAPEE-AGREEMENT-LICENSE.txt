@@ -1,0 +1,287 @@
+Subscription and Services Agreement
+
+This Subscription and Services Agreement ("Agreement") is entered into by the entity set forth on an Order Form
+referencing this Agreement ("Customer") and HAProxy Technologies LLC, a Delaware limited liability company, located at
+375 Totten Pond Road, Suite 302, Waltham, Massachusetts 02451 ("Company"). This Agreement is effective as of the date
+of Company's signature on the applicable Order Form ("Effective Date").
+
+1. Scope. Company will provide the applicable Subscriptions set forth on an Order Form. A description of
+Subscriptions offered by Company is available on the Company's website: www.haproxy.com. Subscriptions include
+Support for certain Software at the levels and in accordance with the descriptions set forth in the Order Form. Customer
+will not use the Software on or with any Servers that are not subject to a Subscription. If at any time during the Subscription
+Term, Customer increases the quantity of Servers on which the Software is installed or used, no later than thirty (30) days
+after each such addition, Customer will notify Company and pay the applicable Fees beginning from the first date of such
+use.
+
+
+2. Fees.
+
+2.1 Customer will pay the fees set forth on the Order Form ("Fees"). All Fees are non-refundable, non-cancelable, and
+exclusive of applicable taxes. Unless otherwise set forth on an Order Form, Customer will pay Fees within thirty (30) days
+of the date of Company's invoice, without deduction or setoff. Company is entitled to charge Customer interest, at a rate
+equal to one and a half percent (1.5%) per month on any overdue or underpaid amounts. If Customer fails to pay Fees in
+accordance with this Section 2, Company may suspend provision of the Subscriptions or Services until such payment is
+received by Company. Customer's payment obligation will remain in effect during any such suspension. Unless otherwise
+set forth on an Order Form, Fees due in a Renewal Term will be Company's then-current fees for Subscriptions.
+
+2.2 Customer will pay directly any taxes arising out of this Agreement, including applicable local, state, federal and
+international sales taxes, value added taxes, withholding taxes, and any other taxes or duties of any kind, but excluding
+taxes on Company's net income and all employer reporting and payment obligations with respect to Company's personnel.
+If any applicable law requires Customer to withhold amounts from any payments to Company under this Agreement, (a)
+Customer will effect such withholding, remit such amounts to the appropriate taxing authorities and promptly furnish
+Company with tax receipts evidencing the payments of such amounts and (b) the sum payable by Customer upon which the
+deduction or withholding is based will be increased to the extent necessary to ensure that, after such deduction or
+withholding, Company receives and retains, free from liability for such deduction or withholding, a net amount equal to the
+amount Company would have received and retained absent the required deduction or withholding.
+
+
+3. Subscription License.
+
+3.1 For Software licensed under a commercial license, Company grants to Customer a limited, non-exclusive, non-
+transferable license during the Subscription Term to use and reproduce such Software on Servers for which Customer has
+purchased a Subscription solely in connection with Customer's internal operations.
+
+3.2 All Servers on which the Software is installed must be covered by the same Subscription level. Upon termination
+or expiration of the Subscription, this Agreement and all licenses granted hereunder will terminate. Following such
+termination or expiration of the Subscription, upon request from Company, Customer will provide written confirmation to
+Company that it has: (a) removed or uninstalled the Software from all of its Servers which were licensed under a commercial
+license or (b) is using the Software pursuant to and in accordance with an open source license without use of Company's
+marks.
+
+3.3 Customer will not and will not allow any third party to: (a) decompile, disassemble, translate, reverse engineer or
+otherwise attempt to derive source code from any encrypted or encoded portion of the Software, in whole or in part, nor
+will Customer use any mechanical, electronic or other method to trace, decompile, disassemble, or identify the source code
+of the Software or encourage or permit others to do so (except and only to the extent that applicable law prohibits or
+restricts reverse engineering restrictions), (b) sell, sublicense, rent, lease, distribute, market, or commercialize the Software
+for any purpose, including timesharing or service bureau purposes, (c) create, develop, license, install, use, or deploy any
+third party software or services to circumvent, enable, modify or provide access, permissions or rights which violate the
+technical restrictions of the Software, (d) remove any product identification, proprietary, copyright or other notices
+contained in the Software, (e) modify or create a derivative work of any encrypted or encoded portion of the Software, or
+any other portion of the Software, (f) publicly disseminate performance information or analysis including, without limitation
+benchmarking test results; (g) use the Software other than on Server; or (h) change any proprietary rights notices which
+appear in the Software or Documentation.
+
+3.4 The Software may include individual open source software components, each of which has its own copyright and
+its own applicable license conditions. Open source software is licensed to Customer under the terms of the applicable open
+source license conditions and copyright notices that can be found in the licenses file, the Documentation or other materials
+accompanying the Software. In the event of a conflict between the licenses and restrictions set forth in this Section 3 and
+the terms of the open source license governing open source software, the terms of the open source software license will
+prevail.
+
+
+4. Professional Services.
+
+4.1 Customer will provide Company with reasonable assistance to facilitate the scheduling and performance of the
+Professional Services. Customer will designate an engagement manager who will be authorized to give or obtain all
+information, decisions and approvals of such party relating to the Professional Services.
+
+4.2 Professional Services will be deemed accepted when delivered unless otherwise set forth in the applicable Order
+Form or SOW. Any prepaid but unused Professional Services hours not used within the term specified on the applicable
+Order Form or SOW will expire.
+
+4.3 Customer will reimburse Company for any expenses incurred by Company and pre-approved by Customer.
+
+
+5. Publicity and Confidentiality.
+
+5.1 Company will be permitted to reference its relationship with Customer on its website, during discussions with
+analysts and reporters and in customer briefings and regulatory filings. Company will comply with Customer's publicly
+available trademark usage policies.
+
+5.2 For purposes of this Agreement, the party disclosing Confidential Information is the "Discloser," and the party
+receiving Confidential Information is the "Recipient." Confidential Information means all information that is marked or
+identified as confidential or proprietary at the time of disclosure or that would be reasonably understood to be confidential
+based on the nature and circumstances surrounding disclosure.
+
+5.3 Confidential Information excludes information that is: (a) known to Recipient without restriction before receipt
+from Discloser; (b) publicly available through no fault of Recipient; (c) rightfully received by Recipient from a third party
+without a duty of confidentiality; or (d) independently developed by Recipient. If Confidential Information is required to be
+produced by law, court order, or governmental authority, Recipient must (subject to legal prohibition) immediately notify
+Discloser and only disclose the information required. Recipient will use Discloser's Confidential Information only for the
+purposes provided and as directed by Discloser. Confidential Information may not be disclosed to any third party other
+than Recipient's employees and contractors that need to know such information and that are subject to obligations of
+confidentiality to Recipient no less restrictive than the terms set forth herein. At Discloser's request, all written, recorded,
+graphical, or other tangible Confidential Information, including copies, must be returned to Discloser or destroyed by
+Recipient. At the request of Discloser, Recipient will certify in writing that any Confidential Information not returned to
+Discloser has been destroyed. Recipient may use Residuals for any purpose, including use in the acquisition, development,
+manufacture, promotion, sale, or maintenance of products and services; provided that the foregoing does not represent a
+license under any intellectual property or proprietary rights of disclosing party.
+
+
+6. Intellectual Property.
+
+6.1 Company will own all intellectual property and proprietary rights in the: (a) Software, Documentation, and related
+works, including but not limited to any modifications and derivative works of the foregoing; and (b) deliverables provided
+by Company as part of the Professional Services ("Deliverables"). Except for Deliverables related to open source software
+and unless otherwise specified on an Order Form or SOW, Company grants to Customer a nonexclusive, non-transferrable,
+royalty-free license to use Deliverables for Customer's internal purposes during the Subscription Term. Deliverables related
+to open source software will be made available in accordance with and pursuant to the open source license governing such
+software.
+
+6.2 During the Subscription Term, Customer grants to Company a nonexclusive, non-transferable, royalty-free license
+to use Customer's materials provided by Customer to Company solely for the purpose of performing the Professional
+Services.
+
+6.3 In the event that Customer provides Company with suggestions, enhancement requests, recommendations,
+proposals, documents, or other feedback (collectively, "Communications"), Customer grants Company a royalty-free,
+worldwide, transferable, sublicenseable, irrevocable, perpetual license to use, modify, and distribute such Communications
+in any manner without compensation to Customer or attribution of any kind.
+
+
+7. Warranties; Disclaimers.
+
+7.1 Company warrants that the Support and Professional Services will be performed in a professional and workmanlike
+manner consistent with applicable industry standards. If Customer believes there has been a breach of this warranty,
+Customer must notify Company in writing promptly following delivery of such Support or Professional Services stating in
+reasonable detail the nature of the alleged breach. As Company's sole obligation and Customer's exclusive remedy,
+Company will to correct or re-perform, at no additional charge, any non-conforming Support or Professional Services.
+
+7.2 Customer represents and warrants that it and its use of the Subscription, Software, Support, and Professional
+Services will at all time comply with applicable laws.
+
+7.3 EXCEPT AS PROVIDED IN SECTION 7.1, TO THE MAXIMUM EXTENT PROVIDED BY APPLICABLE LAWS, THE
+SOFTWARE, SUPPORT, AND PROFESSIONAL SERVICES INCLUDING ALL UPDATES, BUG FIXES, WORK AROUNDS, OR ERROR
+CORRECTIONS, ARE PROVIDED TO CUSTOMER "AS-IS" AND "AS AVAILABLE" WITHOUT ANY WARRANTIES OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR
+A PARTICULAR PURPOSE, INTEGRATION, NON-INFRINGEMENT, TITLE, PERFORMANCE, AND ACCURACY AND ANY IMPLIED
+WARRANTIES ARISING FROM STATUTE, COURSE OF DEALING, COURSE OF PERFORMANCE, OR USAGE OF TRADE.
+
+
+8. Limitation of Liability.
+
+8.1 IN NO EVENT WILL COMPANY OR ITS AFFILIATES BE LIABLE UNDER THIS AGREEMENT FOR ANY INDIRECT, RELIANCE,
+PUNITIVE, CONSEQUENTIAL, SPECIAL, EXEMPLARY, OR INCIDENTAL DAMAGES OF ANY KIND AND HOWEVER CAUSED EVEN
+IF COMPANY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS OR DAMAGE.
+
+8.2 COMPANY AND ITS AFFILIATES' AGGREGATE AND CUMULATIVE LIABILITY ARISING OUT OF OR RELATING TO
+THIS AGREEMENT, INCLUDING WITHOUT LIMITATION ON ACCOUNT OF PERFORMANCE OR NON- PERFORMANCE
+OF OBLIGATIONS, REGARDLESS OF THE FORM OF THE CAUSE OF ACTION, WHETHER IN CONTRACT, TORT (INCLUDING
+WITHOUT LIMITATION NEGLIGENCE), STATUTE OR OTHERWISE WILL BE LIMITED TO DIRECT DAMAGES AND WILL NOT
+EXCEED THE TOTAL AMOUNT OF FEES PAID TO COMPANY PURSUANT TO THE ORDER FORM GIVING RISE TO THE CLAIM
+DURING THE TWELVE (12) MONTHS IMMEDIATELY PRECEDING THE TIME THE CLAIM AROSE.
+
+8.3 THE PROVISIONS OF THIS SECTION 8 ALLOCATE RISKS UNDER THIS AGREEMENT BETWEEN CUSTOMER AND
+COMPANY. COMPANY'S FEES FOR THE SUBSCRIPTIONS, SUPPORT AND SERVICES REFLECT THIS ALLOCATION OF RISKS AND
+LIMITATION OF LIABILITY.
+
+
+9. Indemnification.
+
+9.1 For Software licensed to Customer under a commercial license ("Covered Software"), Company will defend
+Customer against any third party claim brought against Customer claiming that such Covered Software as licensed under
+this Agreement infringes such third party's patent or copyright valid and enforceable in the United States and European
+Union ("Infringement Claim") and indemnify Customer from the resulting costs and damages awarded by a court of
+competent jurisdiction against Customer to the third party making such Infringement Claim, provided that Customer gives
+Company: (a) prompt written notice of the Infringement Claim, (b) exclusive control over the defense and settlement of the
+Infringement Claim, and (c) reasonable cooperation in connection with the defense and settlement of the Infringement
+Claim. Customer may reasonably participate in the defense of the Infringement Claim at its own expense. Company will
+have no liability if the alleged infringement is based on: (i) combination of the Covered Software with other software, data
+or business process not provided with the Subscription, (ii) use for a purpose or in a manner for which the Covered Software
+was not designed, (iii) use of any older release of the Covered Software when use of a newer revision would have avoided
+the infringement, (iv) any modification of the Covered Software made by anyone other than Company, (v) any intellectual
+property right owned or licensed by Customer, excluding the Covered Software, (vi) Company's compliance with any
+materials, designs, specifications or instructions provided by Customer, (vii) Customer's claim or lawsuit against a third
+party, (viii) any open source software, or (ix) Customer's use of the Covered Software after Company notifies Customer to
+discontinue running it due to an Infringement Claim.
+
+9.2 Should Covered Software become, or in Company's opinion be likely to become, the subject of such an
+Infringement Claim, Company will, at its option and expense, (a) procure for Customer the right to make continued use of
+the Covered Software, (b) replace or modify such so that it becomes non-infringing, or (c) request return of the Covered
+Software and, upon receipt thereof, the corresponding licenses are terminated and Company will refund any prepaid but
+unused Fees paid for the applicable Subscription.
+
+9.3 THIS SECTION 9 STATES CUSTOMER'S SOLE AND EXCLUSIVE REMEDY AND COMPANY'S ENTIRE LIABILITY FOR
+INFRINGEMENT CLAIMS.
+
+
+10. Term and Termination.
+
+10.1 This Agreement will be in effect until all outstanding Order Forms have expired to been terminated in accordance
+with this Agreement. Each Order Form will be in effect for a period of one (1) year from the Effective Date (the "Initial
+Term") and will automatically renew for successive one (1) year periods (each a "Renewal Term" and together with the
+Initial Term, the "Subscription Term"). During the Subscription Term, Customer may purchase Subscriptions for additional
+Servers pursuant to an Order Form and such Subscriptions will be co-terminus with the then-current Subscription Term.
+Either party may elect not to renew an Order Form by providing the other party with no less than sixty (60) days' notice
+prior to the commencement of a Renewal Term. The expiration or termination of an Order Form or SOW will not terminate
+any other Order Form in effect. Either party may terminate this Agreement, Order Forms and SOWs with immediate effect:
+(a) in the event that the other party breaches this Agreement and does not cure such breach within thirty (30) days following
+of written notice of such breach, (b) in the event that the other party ceases business, becomes insolvent or bankrupt or if
+a receiver, examiner, administrator or administrative receiver is appointed over any part of that party's business or if
+anything analogous occurs in relation to that party under the laws of another jurisdiction, or (c) upon the institution by or
+against the other party of insolvency, receivership or bankruptcy proceedings in relation to such party.
+
+10.2 Sections 2 and 5-9, 10.2, 10.3, 11, and 12 will survive the expiration or termination of this Agreement.
+
+10.3 During the Subscription Term and for one (1) year following termination or expiration of this Agreement (but no
+more than once in a calendar year), Company and its auditors may inspect Customer's records relating to its reproduction
+and use of the Software, Support and Subscription for the purposes of verifying Customer's compliance with this
+Agreement. Customer will cooperate fully with Company and its auditors in conducting audits and provide reasonable
+assistance. If an underpayment is discovered, Customer will promptly pay such amount and Customer will reimburse
+Company for the cost of the audit.
+
+
+11. General.
+
+11.1 This Agreement and any dispute relating to, or arising out of this Agreement or its formation or termination or
+actions or omissions contemplated by this Agreement, will be governed by and in accordance with the laws of New York,
+without giving effect to the conflict of laws provisions. For all disputes arising out of this Agreement, the parties consent to
+the exclusive jurisdiction of the federal and state courts located in New York.
+
+11.2 Unless otherwise specified in this Agreement, all notices will be in writing and will be mailed (via registered or
+certified mail, return receipt requested), delivered by a nationally recognized express courier service with the ability to track
+shipments, or personally delivered to the other party at the address set forth above (or at such other address as either party
+may designate in writing to the other party). All notices will be effective upon receipt.
+
+11.3 This Agreement is binding on the parties to this Agreement, and nothing in this Agreement confers upon any other
+person or entity any right, benefit or remedy of any nature whatsoever. This Agreement is assignable by either party only
+with the other party's prior written consent, which will not be unreasonably withheld. Notwithstanding the foregoing,
+either party may assign this Agreement to an Affiliate or as a result of a merger or a sale of all or substantially all of such
+party's assets or stock without the prior approval of the other party, provided that Customer's assignment may not
+increase the scope of an Order Form.
+
+11.4 This Agreement, including any linked terms set forth herein, together with all Order Forms, is the parties' entire
+agreement relating to its subject and supersedes any prior or contemporaneous agreements on that subject. All
+amendments to this Agreement must be in writing, executed by both parties and expressly state that they are amending
+this Agreement. Notwithstanding the foregoing, HAProxy may modify the Subscription and Support offering, provided that
+HAProxy will not materially reduce such Subscription and Support benefits during the then-current Subscription Term.
+Purchase orders will be for the sole purpose of defining quantities, prices and describing the Subscription, Support and
+Professional Services to be provided under this Agreement and to this extent only are incorporated as a part of this
+Agreement and all other terms in purchase orders are rejected.
+
+11.5 Failure to enforce any provision of this Agreement will not constitute a waiver thereof. No waiver will be effective
+unless it is in writing and signed by the waiving party. If a party waives any right, power, or remedy, the waiver will not
+waive any successive or other right, power, or remedy the party may have under this Agreement. If any provision is found
+to be unenforceable, it and any related provisions will be interpreted to best accomplish the unenforceable provision's
+essential purpose.
+
+11.6 Neither party will be liable for failures or delays in performance due to causes beyond its reasonable control,
+including, but not limited to, any act of God, fire, earthquake, flood, storm, natural disaster, accident, pandemic, labor
+unrest, civil disobedience, act of terrorism or act of government; however, the inability to meet financial obligations is
+expressly excluded.
+
+
+12. Definitions
+"Affiliate" means any company controlling, controlled by or under common control with a party, where "control" shall
+mean ownership, directly or indirectly, of the shares of a company representing fifty percent (50%) or more of the voting
+rights in this company.
+"Documentation" means the documentation made available by Company with the Software, which may be modified from
+time to time.
+"Subscription" means the subscription for Support and Software as set forth on the Order Form. Subscriptions may be
+modified from time to time in Company's sole discretion, provided that any modifications will not materially reduce the
+benefits provided by Subscriptions under an applicable Order Form.
+"Fees" mean the fees described in each Order Form or SOW.
+"Order Form" means the mutually agreed ordering document for Subscriptions and Professional Services.
+"Residuals" means information that is retained in the unaided memories of Recipient's employees, agents, or contractors
+as permitted herein who have had access to Discloser's Confidential Information. Memory is unaided if the employee or
+contractor has not intentionally memorized the Confidential Information for the purpose of retaining and subsequently
+using or disclosing it.
+"Server" means a single (i) a physical machine; (ii) virtual machine; or (iii) software container.
+"Professional Services" mean training and professional services purchased by Customer as set forth on an Order Form or
+SOW. Professional Services must be designated as "Professional Services" on an Order Form
+"Software" means the software licensed or provided under this Agreement and all Updates that Company makes available
+during the Subscription Term.
+"SOW" means the mutually agreed statement of work describing the Professional Services purchased by Customer.
+"Support" means the technical and consultative support in the Subscription purchased by Customer as set forth on the
+Order Form.
+"Update" means any new major or minor version of the Software made available by Company as part of Subscription during
+the Subscription Term.
