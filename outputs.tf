@@ -76,3 +76,33 @@ output "configure_kubectl" {
        ${var.ha == "yes" ? "http://${aws_eip.ha_floating_ip[0].carrier_ip} (Floating HA IP)" : "http://${aws_eip.tf-wavelength-ip["primary"].carrier_ip}"}
   EOT
 }
+output "udp_hapee_instructions" {
+  description = "Instructions for setting up UDP in HAPEE External Ingress controller"
+  value       = <<-EOT    
+    To configure UDP support in your HAPEE External Ingress controller:
+    
+    1. Apply the UDP sample workload:
+       kubectl apply -f udp-sample-workload.yml
+    
+    2. Get the NodePort and Node IP for your UDP service:
+       kubectl get svc udp-service -o jsonpath='{.spec.ports[0].nodePort}'
+       kubectl get nodes -o wide
+    
+    3. Modify the aux.cfg file to add UDP servers using the NodePort:
+       server udpserver NODE_IP:NODE_PORT
+       
+       Replace NODE_IP with your node's IP address and NODE_PORT with the NodePort number.
+       
+    4. SSH into your HAPEE machines
+    
+    5. Copy the modified aux.cfg file to the instance(s) in the following path /etc/hapee-3.0/
+    
+    6. Restart the HAPEE Kubernetes ingress service:
+       sudo systemctl restart hapee-3.0-kubernetes-ingress
+    
+    7. Test the UDP connection:
+       echo "hello" | nc -u localhost 9090
+    
+    8. Important: Remember to modify your security groups to allow UDP traffic on the required ports
+  EOT
+}

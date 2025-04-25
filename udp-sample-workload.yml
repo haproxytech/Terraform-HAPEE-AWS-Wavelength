@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: udp-echo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: udp-echo
+  template:
+    metadata:
+      labels:
+        app: udp-echo
+    spec:
+      containers:
+      - name: udp-echo
+        image: alpine
+        command: ["/bin/sh"]
+        args:
+        - "-c"
+        - "apk add --no-cache socat && socat -v UDP-LISTEN:8000,fork EXEC:'/bin/cat'"
+        ports:
+        - containerPort: 8000
+          protocol: UDP
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: udp-echo
+spec:
+  selector:
+    app: udp-echo
+  ports:
+  - name: udp
+    port: 8000
+    protocol: UDP
+    targetPort: 8000
+  type: NodePort 
