@@ -145,6 +145,34 @@ kubectl apply -f sample-workload.yaml
 # http://HAPROXY-FLOATING-IP (Floating HA IP)
 ```
 
+#### Configure UDP LoadBalancer
+```bash
+# Apply the UDP sample workload:
+kubectl apply -f udp-sample-workload.yml
+
+# Get the NodePort and Node IP for your UDP service:
+kubectl get svc udp-service -o jsonpath='{.spec.ports[0].nodePort}'
+kubectl get nodes -o wide
+
+# Modify the aux.cfg file to add UDP servers using the NodePort and define the Frontend IP:Port:
+server udpserver NODE_IP:NODE_PORT
+
+# Apply the sample workload
+kubectl apply -f sample-workload.yaml
+
+# SSH into your HAPEE machines
+
+# Copy the modified aux.cfg file to the instance(s) in the following path /etc/hapee-3.0/
+
+# Restart the HAPEE Kubernetes ingress service
+sudo systemctl restart hapee-3.0-kubernetes-ingress
+
+#Test the UDP connection:
+echo "hello" | nc -u IP PORT
+
+```
+
+
 **Note**: Ensure your AWS CLI is configured with the correct region and credentials.
 
 ### High Availability Setup Instructions
